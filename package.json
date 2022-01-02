@@ -1,0 +1,19 @@
+{
+  "name": "imtihion",
+  "version": "1.0.0",
+  "description": "imtihin uchun backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-generator": "^4.16.1",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
